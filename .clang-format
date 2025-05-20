@@ -1,0 +1,21 @@
+# Based on LLVM style
+BasedOnStyle: LLVM
+IndentWidth: 4
+ColumnLimit: 80
+Language: Cpp
+
+# Control of individual formatting aspects
+AllowShortFunctionsOnASingleLine: Inline
+AllowShortIfStatementsOnASingleLine: false
+AllowShortLoopsOnASingleLine: false
+AlwaysBreakTemplateDeclarations: Yes
+BreakBeforeBraces: Attach
+PointerAlignment: Left
+SortIncludes: true
+SpaceBeforeParens: ControlStatements
+SpacesInParentheses: false
+TabWidth: 4
+UseTab: Never
+
+# Specific settings for access modifiers
+AccessModifierOffset: -4
